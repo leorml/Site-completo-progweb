@@ -115,7 +115,7 @@ img{
 
  /* Layout do site */
 .header{
-    background: #2f2f11;
+    background: #8f1a6c;
     padding-bottom: -5px;
 }
 h1.logo{
@@ -123,7 +123,7 @@ h1.logo{
     border-color: #9e7c3a;
     font-weight: 500;
 	color: #9e7c3a;
-    letter-spacing: 2px;
+    letter-spacing: 15px;
     margin-right: 20px;
     text-align: center;
 }
