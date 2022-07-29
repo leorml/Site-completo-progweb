@@ -1,7 +1,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
     color: #333;
-    background-color: #e3e3a6;
+    background-color: #f6f8de;
 }
 a:link, a:active, a:visited{
 	color:black;
@@ -115,7 +115,7 @@ img{
 
  /* Layout do site */
 .header{
-    background: #36aeb3;
+    background: #0cf0f0;
     padding-bottom: -5px;
 }
 h1.logo{
@@ -221,7 +221,7 @@ h1.logo{
 	margin: 4px;
 	padding: 2px;	
 	overflow-y: auto;	
-	img 
+	background-color: #87a0a1;
 }
 
 		
