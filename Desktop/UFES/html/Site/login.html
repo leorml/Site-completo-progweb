@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Just Fun!</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+	<div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col4">
+					<h1 class="logo">Just Fun!</h1>
+				</div>
+				<div class="coluna col8">
+					<nav>
+						<ul class="menu inline sem-marcador">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="contato.html">contato</a></li>
+							<li><a href="curiosidades.html">Curiosidades</a></li>
+							<li><a href="ajuda.html">ajuda</a></li>
+                            <li><a href="login.html">cadastre-se</a></li>
+						</ul>	
+					</nav>
+				</div>	
+			</header>	
+		</div>	
+	</div>
+	<div class="linha">
+        <div class="conteudo">
+            <section>
+                <div class="coluna col7 contato">
+                    <h2>Faça seu cadastro</h2>
+                    <form action="">
+                        <h3>Dados Pessoais</h3>
+                        <label for="nome">Seu nome:</label>
+                        <input type="text" name="nome" id="nome" />
+                        
+                        <label for="assunto">Telefone:</label>
+                        <input type="text" name="Telefone" id="Telefone" />
+                        
+                        <label for="assunto">Profissão:</label>
+                        <input type="text" name="Profissão" id="Profissão" />
+
+                        <label for="assunto">CPF:</label>
+                        <input type="text" name="CPF" id="CPF" />
+
+                        <label for="assunto">Email:</label>
+                        <input type="text" name="Email" id="Email" />
+
+                        <label for="assunto">Estado Civil:</label>
+                        <select class="form-control">
+                            <option>Solteiro</option><br>
+                            <option>Casado</option><br>
+                        </select>
+                        
+                        <div class="radio">
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" id="masculino" name="Gênero" value="masculino"/>
+                        <label for="feminino">Feminino</label>
+                        <input type="radio" id="feminino" name="Gênero" value="feminino"/>
+                        </div>
+
+                        <label for="assunto">Data de Nascimento:</label>
+                        <input type="text" name="Data de Nascimento" id="Data de Nascimento" />
+                        
+                        <h3>Informações de Endereço</h3>
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="Rua" id="Rua" />
+                        
+                        <label for="rua">Cidade:</label>
+                        <input type="text" name="Cidade" id="Cidade" />
+                        
+                        <label for="assunto">Estado:</label>
+                        <input type="text" name="Estado" id="Estado" />
+                        
+                        <label for="assunto">CEP:</label>
+                        <input type="text" name="CEP" id="CEP" />
+                        
+                        <h3>Informações de Acesso:</h3>
+                        <label for="assunto">Login:</label>
+                        <input type="text" name="Login" id="Login" />
+                        <label for="assunto">Senha:</label>
+                        <input type="text" name="Senha" id="Senha" />
+                                              
+                        <label for="mensagem">Observações:</label>
+                        <textarea name="Observações" id="Observações"></textarea>
+                        
+                        <input type="submit" class="botao" name="enviar" value="Enviar dados &raquo;" />					
+                    </form>
+                </div>	
+            </section>
+        </div>
+	</div>
+	
+	<div class="footer">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy; 2022 - Just Fun!</span>
+				</div>	
+			</footer>
+		</div>		
+	</div>	
+</body>
+
+</html>
