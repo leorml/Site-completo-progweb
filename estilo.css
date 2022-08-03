@@ -52,6 +52,7 @@ a:hover{
 }
 .col9{
 	width: 700px;
+	color: #000000;
 }
 .col10{
 	width: 780px;
@@ -88,19 +89,19 @@ ul.sem-marcador,ol.sem-marcador{
 	list-style: none;
 }
 a.botao, input.botao{
-	background: #2f2f11;
+	background: #ffffff;
 	padding: 5px 10px;
 	border-radius: 3px;
-	color: #ebebeb;
+	color: #000000;
 	cursor: pointer;
 	margin: 5px 0px;
 	display: inline-block;
 	border: none;
 }
 a.botao:hover, input.botao:hover{
-	background:  #9e7c3a;
+	background:  #8d3a9e;
 	text-decoration: none;
-	color:#2f2f11 ;
+	color:#000000 ;
 
 }
 .conteudohome{
@@ -131,8 +132,8 @@ h1.logo{
 	background: #f1f2ea;
 }
 .footer{
-	background: #2f2f11;
-    color: #c3c386;
+	background: #8658da;
+    color: #ffffff;
 	padding: 20px 0;
     text-align: center;
 	font-weight: 100;
@@ -146,11 +147,11 @@ h1.logo{
 .menu li a{
 	padding: 5px 10px;
     border-radius: 3px;
-    color: #c3c386;
+    color: #ffffff;
 }
 .menu li a:hover{
 	text-decoration: none;
-	background: #c3c386;
+	background: #8320b1;
 	color: #ebebeb;
 }
 .radio label{
@@ -208,7 +209,7 @@ h1.logo{
 }
 
 
-/* Rifles */
+/* Box dos produtos */
 
 .boxProduto{
 	float: left;
@@ -221,10 +222,18 @@ h1.logo{
 	margin: 4px;
 	padding: 2px;	
 	overflow-y: auto;	
-	background-color: #87a0a1;
+	background-color: #ae85e4;
 }
 
-		
+/* curiosidades */
+
+.gif{
+	text-align: center;
+	overflow: auto;
+	padding: 10px;
+	max-width: 285px;
+}
+
 .container img {
     
     width: auto;
