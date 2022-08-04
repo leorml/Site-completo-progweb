@@ -115,7 +115,7 @@ img{
 
 
  /* Layout do site */
-.header{
+header{
     background: #8658da;
     padding-bottom: -5px;
 }
@@ -223,7 +223,12 @@ h1.logo{
 	padding: 2px;	
 	overflow-y: auto;	
 	background-color: #ae85e4;
+	
 }
+h5{
+		float: center;
+		overflow-y: auto;
+	}
 
 /* curiosidades */
 
